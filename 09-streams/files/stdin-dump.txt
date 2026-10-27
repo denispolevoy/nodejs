@@ -1,0 +1,1 @@
+This is streaming data written in to file stdin-dump.txt
