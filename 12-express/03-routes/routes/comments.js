@@ -1,11 +1,12 @@
 const express = require('express');
 const {
-    getCommentsHandler,
-    postCommentsHandler,
-    getSingleCommentHandler,
-    deleteSingleCommentHandler,
+  getCommentsHandler,
+  postCommentsHandler,
+  getSingleCommentHandler,
+  deleteSingleCommentHandler,
 } = require('../controllers/comments');
 
+// express.Router - вызов конструктора создает экземпляр класса Router
 const router = express.Router();
 
 router.get('/', getCommentsHandler);
